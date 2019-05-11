@@ -41,3 +41,58 @@ print("total no. of loss trades:", len(loss_trades), "gross loss:", sum(loss_tra
 print("how much times loss is profit:", "%.3f" % (sum(profit_trades)/sum(loss_trades)), sep="\n")
         
 print("max profit:", max(profit_trades), "max loss:", max(loss_trades), sep="\n")  
+
+'''
+current output example:
+    
+    runfile('F:/git projects/All my repositories/Trading/trades_analysis_v1.py', wdir='F:/git projects/All my repositories/Trading')
+
++105
+
+-32
+
++36
+
++48
+
+-12
+
++159
+
++258
+
+-36
+
+-15
+
++414
+
++26
+
++98
+
++88
+
+-10000
+total number of trades:
+13
+total sum of all trades:
+1137
+total no. of profit trades:
+9
+gross profit:
+1232
+total no. of loss trades:
+4
+gross loss:
+-95
+how much times loss is profit:
+-12.968
+max profit:
+414
+max loss:
+-12
+
+'''
+
+
